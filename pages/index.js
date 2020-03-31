@@ -1,22 +1,82 @@
-import { ApolloClient } from "apollo-client";
-import { InMemoryCache } from "apollo-cache-inmemory";
-import { createHttpLink } from "apollo-link-http";
-import fetch from "node-fetch";
-
 import Layout from '../components/Layout';
 
-const cache = new InMemoryCache();
-const link = createHttpLink({ uri: "https://api.spacex.land/graphql/", fetch: fetch });
+import { useEffect, useState } from 'react'
+import gql from "graphql-tag";
+import { client } from '../components/Layout';
 
-export const client = new ApolloClient({
-    cache,
-    link
-});
+const index = () => {
 
-const index = () => (
-    <Layout>
-        <h1>Hello world</h1>
-    </Layout>
-);
+    const [rockets, setRockets] = useState([])
+
+    useEffect(() => {
+        client
+            .query({
+                query: gql`
+              query GET_ROCKETS {
+                rockets {
+                  id
+                  name
+                  description
+                  country
+                }
+              }            
+          `
+            })
+            .then(result => {
+                console.log(result)
+                setRockets(result.data.rockets)
+            });
+    }, [])
+
+    return (
+        <div>
+            <Layout>
+                <div id="img">
+                    <div class="columns" style={{ backgroundColor: 'black', opacity: 0.8, height:'92vh' }}>
+                        {rockets.map(rocket => (
+                            <div class="column" style={{ margin:'40px auto' }}>
+                                <div class="card" style={{ width: '300px', color:'#f2f2f2'}}>
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <img src={`${rocket.id}.jpg`} alt={rocket.id} />
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" style={{ fontSize: '1.5em', textDecorationWidth:'bold' }}>{rocket.name}</p>
+                                                <a class="subtitle is-6">@{rocket.id}</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            <p><b>Description: </b></p>
+                                            {rocket.description}
+                                        </div>
+                                        <br />
+                                        <div class="content">
+                                            <p><b>Country: </b></p>
+                                            {rocket.country}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </Layout>
+
+            <style jsx>{`
+            #img {
+                background-image: url("/home_bgi.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 92vh;
+            }
+            `}</style>
+        </div >
+    );
+};
 
 export default index;

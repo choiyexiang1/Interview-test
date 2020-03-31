@@ -2,29 +2,29 @@ import Link from "next/link";
 
 import { useEffect, useState } from 'react'
 import gql from "graphql-tag";
-import { client } from '../pages/index';
+import { client } from './Layout';
 
 const Navbar = () => {
 
-  const [rockets, setRockets] = useState([])
+  // const [rockets, setRockets] = useState([])
 
-  useEffect(() => {
-    client
-      .query({
-        query: gql`
-            query GET_ROCKETs {
-              rockets {
-                id
-                name
-              }
-            }            
-        `
-      })
-      .then(result => {
-        console.log(result)
-        setRockets(result.data.rockets)
-      });
-  }, [])
+  // useEffect(() => {
+  //   client
+  //     .query({
+  //       query: gql`
+  //           query GET_ROCKETs {
+  //             rockets {
+  //               id
+  //               name
+  //             }
+  //           }            
+  //       `
+  //     })
+  //     .then(result => {
+  //       console.log(result)
+  //       setRockets(result.data.rockets)
+  //     });
+  // }, [])
 
   return (
     <div>
@@ -46,13 +46,37 @@ const Navbar = () => {
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start" style={{ margin: 'auto' }}>
 
-            {rockets.map(rocket => (
+            {/* {rockets.map(rocket => (
               <Link href={`/rocket/${rocket.id}`}>
                 <a class="navbar-item">
                   {rocket.name}
                 </a>
               </Link>
-            ))}
+            ))} */}
+
+            <Link href={`/rocket/falcon1`}>
+              <a class="navbar-item">
+                Falcon 1
+                </a>
+            </Link>
+
+            <Link href={`/rocket/falcon9`}>
+              <a class="navbar-item">
+                Falcon 9
+                </a>
+            </Link>
+
+            <Link href={`/rocket/falconheavy`}>
+              <a class="navbar-item">
+                Falcon Heavy
+                </a>
+            </Link>
+
+            <Link href={`/rocket/starship`}>
+              <a class="navbar-item">
+                Starship
+                </a>
+            </Link>
 
           </div>
         </div>

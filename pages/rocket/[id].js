@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router'
 import gql from "graphql-tag";
-import { client } from '..';
 
-import Layout from '../../components/Layout';
+import Layout, { client } from '../../components/Layout';
 
 const Rocket = () => {
 
@@ -22,7 +21,9 @@ const Rocket = () => {
                     query: gql`
                         query GET_ROCKET {
                             rocket(id: "${id}") {
-                            name
+                                name
+                                country
+                                description
                             }
                         }
                     `
@@ -36,7 +37,9 @@ const Rocket = () => {
 
     return (
         <Layout>
-            <p>Rocket: {rocket.name}</p>
+            <p>RocketName: {rocket.name}</p>
+            <p>RocketCountry: {rocket.country}</p>
+            <p>RocketDescription: {rocket.description}</p>
         </Layout>
     );
 }
