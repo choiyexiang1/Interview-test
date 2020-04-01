@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useEffect, useState } from 'react'
 import gql from "graphql-tag";
 import { client } from './Layout';
-
 const Navbar = () => {
 
   // const [rockets, setRockets] = useState([])

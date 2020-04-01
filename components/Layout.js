@@ -4,7 +4,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 import { createHttpLink } from "apollo-link-http";
 import fetch from "node-fetch";
 
-import '../styles/style.scss'
+import '../styles/style.scss';
 import Navbar from "./Navbar";
 
 const cache = new InMemoryCache();
@@ -19,7 +19,8 @@ const Layout = (props) => {
     return (
         <div>
             <Head>
-                <title>SpaceX-Rockets</title>
+                <title>SpaceX | Rockets</title>
+                <link rel="icon" href="/icon.png" type="image/icon type"></link>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
             </Head>
             <Navbar />
