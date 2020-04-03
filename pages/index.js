@@ -32,7 +32,7 @@ const index = () => {
             });
     }, [])
 
-    
+
     return (
         <div>
             {isLoading ?
@@ -48,7 +48,7 @@ const index = () => {
                 //isLoading (false)--------------------------------------------------------------------------------------------
                 <Layout>
                     <div id="img">
-                        <div class="columns" style={{ backgroundColor: 'black', opacity: 0.8, height: '92vh' }}>
+                        <div class="columns is-multiline" style={{ backgroundColor: 'black', opacity: 0.8, minHeight: '100vh', width: '100vw' }}>
                             {rockets.map(rocket => (
                                 <div class="column" style={{ margin: '40px auto' }}>
                                     <div class="card" style={{ width: '300px', color: '#f2f2f2' }}>
@@ -92,7 +92,7 @@ const index = () => {
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 92vh;
+                min-height: 92vh;
             }
             `}</style>
         </div >

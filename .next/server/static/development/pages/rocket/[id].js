@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -183,7 +183,7 @@ const Layout = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 13
     }
   }), props.children);
@@ -303,12 +303,37 @@ const Navbar = () => {
   //       setRockets(result.data.rockets)
   //     });
   // }, [])
+  // document.addEventListener('DOMContentLoaded', () => {
+  //   // Get all "navbar-burger" elements
+  //   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  //   // Check if there are any navbar burgers
+  //   if ($navbarBurgers.length > 0) {
+  //     // Add a click event on each of them
+  //     $navbarBurgers.forEach( el => {
+  //       el.addEventListener('click', () => {
+  //         // Get the target from the "data-target" attribute
+  //         const target = el.dataset.target;
+  //         const $target = document.getElementById(target);
+  //         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+  //         el.classList.toggle('is-active');
+  //         $target.classList.toggle('is-active');
+  //       });
+  //     });
+  //   }
+  // });
   return __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 55,
       columnNumber: 5
+    }
+  }, __jsx("navabr", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 7
     }
   }, __jsx("nav", {
     class: "navbar is-black",
@@ -320,24 +345,24 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 7
+      lineNumber: 57,
+      columnNumber: 9
     }
   }, __jsx("div", {
     class: "navbar-brand",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
+      lineNumber: 58,
+      columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 11
+      lineNumber: 59,
+      columnNumber: 13
     }
   }, __jsx("a", {
     class: "navbar-item",
@@ -347,8 +372,8 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 13
+      lineNumber: 60,
+      columnNumber: 15
     }
   }, __jsx("img", {
     src: "https://www.spacex.com/sites/spacex/files/spacex_logo_white.png",
@@ -356,8 +381,8 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 15
+      lineNumber: 61,
+      columnNumber: 17
     }
   }))), __jsx("a", {
     role: "button",
@@ -368,32 +393,32 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 11
+      lineNumber: 65,
+      columnNumber: 13
     }
   }, __jsx("span", {
     "aria-hidden": "true",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 13
+      lineNumber: 66,
+      columnNumber: 15
     }
   }), __jsx("span", {
     "aria-hidden": "true",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 13
+      lineNumber: 67,
+      columnNumber: 15
     }
   }), __jsx("span", {
     "aria-hidden": "true",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 13
+      lineNumber: 68,
+      columnNumber: 15
     }
   }))), __jsx("div", {
     id: "navbarBasicExample",
@@ -401,8 +426,8 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 9
+      lineNumber: 72,
+      columnNumber: 11
     }
   }, __jsx("div", {
     class: "navbar-start",
@@ -412,74 +437,74 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 11
+      lineNumber: 73,
+      columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: `/rocket/falcon1`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 13
+      lineNumber: 83,
+      columnNumber: 15
     }
   }, __jsx("a", {
     class: "navbar-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 15
+      lineNumber: 84,
+      columnNumber: 17
     }
   }, "Falcon 1")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: `/rocket/falcon9`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 13
+      lineNumber: 89,
+      columnNumber: 15
     }
   }, __jsx("a", {
     class: "navbar-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 15
+      lineNumber: 90,
+      columnNumber: 17
     }
   }, "Falcon 9")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: `/rocket/falconheavy`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 13
+      lineNumber: 95,
+      columnNumber: 15
     }
   }, __jsx("a", {
     class: "navbar-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 15
+      lineNumber: 96,
+      columnNumber: 17
     }
   }, "Falcon Heavy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: `/rocket/starship`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 13
+      lineNumber: 101,
+      columnNumber: 15
     }
   }, __jsx("a", {
     class: "navbar-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 15
+      lineNumber: 102,
+      columnNumber: 17
     }
-  }, "Starship"))))));
+  }, "Starship")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -2178,8 +2203,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Loader */ "./components/Loader.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Loader */ "./components/Loader.js");
 var _jsxFileName = "C:\\Users\\ethan\\Desktop\\SpaceX_Test\\pages\\rocket\\[id].js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -2190,11 +2217,22 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Rocket = () => {
+  const img = {
+    // backgroundAttachment: 'fixed',
+    // backgroundRepeat: 'no-repeat',
+    // backgroundSize: 'cover',
+    width: '100vw'
+  };
   const {
     0: rocket,
     1: setRocket
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
+  const {
+    0: histories,
+    1: setHistories
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
   const {
     0: isLoading,
     1: setIsLoading
@@ -2211,173 +2249,1108 @@ const Rocket = () => {
     setId(query.id);
 
     if (id) {
-      _components_Layout__WEBPACK_IMPORTED_MODULE_4__["client"].query({
+      _components_Layout__WEBPACK_IMPORTED_MODULE_5__["client"].query({
         query: graphql_tag__WEBPACK_IMPORTED_MODULE_2___default.a`
                         query GET_ROCKET {
-                            rocket(id: "${id}") {
+                            histories {
+                                title
+                                details
+                                event_date_utc
+                                flight {
+                                  rocket {
+                                    rocket {
+                                      id
+                                    }
+                                  }
+                                }
+                              }
+                              rocket(id: "${id}") {
+                                id
                                 name
-                                country
                                 description
-                            }
+                                country
+                                diameter {
+                                  feet
+                                  meters
+                                }
+                                height {
+                                  feet
+                                  meters
+                                }
+                                mass {
+                                  kg
+                                  lb
+                                }
+                                payload_weights {
+                                  kg
+                                  lb
+                                  name
+                                }
+                                first_stage {
+                                  burn_time_sec
+                                  engines
+                                  fuel_amount_tons
+                                  thrust_vacuum {
+                                    kN
+                                    lbf
+                                  }
+                                  thrust_sea_level {
+                                    kN
+                                    lbf
+                                  }
+                                }
+                                second_stage {
+                                  burn_time_sec
+                                  engines
+                                  thrust {
+                                    kN
+                                    lbf
+                                  }
+                                }
+                                wikipedia
+                                stages
+                              }
                         }
                     `
       }).then(result => {
-        console.log(result);
+        // console.log(result)
         setRocket(result.data.rocket);
         setIsLoading(false);
+        setHistories(result.data.histories);
       });
     }
-  }, [query, id]);
+  }, [query, id]); // Filter out histories don't have flight
+
+  const filterHistory = histories.filter(history => {
+    return history.flight;
+  }); // console.log(filterHistory)
+  // Filter out id not same with this page
+
+  const rocketHistory = filterHistory.filter(history => {
+    return history.flight.rocket.rocket.id == `${id}`;
+  }); // console.log(rocketHistory)
+  //change number to [123,456]
+
+  const changeNum = x => {
+    return x.toLocaleString(x);
+  };
+
   return __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 124,
       columnNumber: 9
     }
   }, isLoading ? //isLoading (true)--------------------------------------------------------------------------------------------
-  __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 127,
       columnNumber: 17
     }
   }, __jsx("div", {
     style: {
       backgroundColor: 'black',
-      opacity: 0.8,
       height: '92vh'
     },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 128,
       columnNumber: 21
     }
-  }, __jsx(_components_Loader__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_components_Loader__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 129,
       columnNumber: 25
     }
   }))) : //isLoading (false)--------------------------------------------------------------------------------------------
-  __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 134,
       columnNumber: 17
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 135,
       columnNumber: 21
     }
   }, __jsx("title", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 136,
       columnNumber: 25
     }
-  }, rocket.name, " | SpaceX")), __jsx("p", {
+  }, rocket.name, " | SpaceX")), __jsx("img", {
+    src: `/RocketPic/${rocket.id}_pic.jpg`,
+    style: img,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 139,
       columnNumber: 21
     }
-  }, "RocketName: ", rocket.name), __jsx("p", {
+  }), __jsx("section", {
+    class: "section has-text-black has-background-white-bis",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 142,
       columnNumber: 21
     }
-  }, "RocketCountry: ", rocket.country), __jsx("p", {
+  }, __jsx("div", {
+    class: "container",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 21
-    }
-  }, "RocketDescription: ", rocket.description), __jsx("div", {
-    class: "tabs",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 21
-    }
-  }, __jsx("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 143,
       columnNumber: 25
     }
-  }, __jsx("li", {
-    class: "is-active",
+  }, __jsx("h1", {
+    class: "title is-size-1",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 144,
       columnNumber: 29
     }
-  }, __jsx("a", {
+  }, rocket.name), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 145,
+      columnNumber: 29
+    }
+  }, rocket.description), __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146,
+      columnNumber: 29
+    }
+  }), rocket.id == "falcon9" || rocket.id == "falconheavy" ? __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148,
+      columnNumber: 35
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149,
+      columnNumber: 37
+    }
+  }, "Histories"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    href: "/launches",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150,
+      columnNumber: 37
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151,
+      columnNumber: 41
+    }
+  }, "Launch Manifest")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    href: "/price",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 153,
+      columnNumber: 37
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 154,
+      columnNumber: 41
+    }
+  }, "Price"))) : rocket.id == "starship" ? __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158,
+      columnNumber: 37
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    href: "/launches",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159,
+      columnNumber: 41
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160,
+      columnNumber: 45
+    }
+  }, "Launch Manifest"))) : __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 164,
+      columnNumber: 37
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165,
+      columnNumber: 41
+    }
+  }, "Histories"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    href: "/launches",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166,
+      columnNumber: 41
+    }
+  }, __jsx("button", {
+    class: "button is-dark",
+    style: {
+      margin: "5px 5px"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 167,
+      columnNumber: 45
+    }
+  }, "Launch Manifest"))))), __jsx("section", {
+    class: "section has-text-black has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177,
+      columnNumber: 25
+    }
+  }, __jsx("h1", {
+    class: "title is-size-2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 178,
+      columnNumber: 29
+    }
+  }, "Technical Overview"), __jsx("div", {
+    class: "columns is-multiline",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 179,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 180,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    class: "notification has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181,
+      columnNumber: 37
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182,
+      columnNumber: 41
+    }
+  }, "Height"), __jsx("article", {
+    class: "level",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183,
+      columnNumber: 41
+    }
+  }, __jsx("figure", {
+    class: "level-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184,
+      columnNumber: 45
+    }
+  }, __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 185,
+      columnNumber: 49
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 185,
+      columnNumber: 69
+    }
+  }, changeNum(rocket.height.meters), " m"))), __jsx("div", {
+    class: "level-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 187,
+      columnNumber: 45
+    }
+  }, __jsx("div", {
+    class: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188,
+      columnNumber: 49
+    }
+  }, __jsx("p", {
+    class: "subtitle ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189,
+      columnNumber: 53
+    }
+  }, changeNum(rocket.height.feet), " ft")))))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 195,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    class: "notification has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196,
+      columnNumber: 37
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197,
+      columnNumber: 41
+    }
+  }, "Mass"), __jsx("article", {
+    class: "level",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 198,
+      columnNumber: 41
+    }
+  }, __jsx("figure", {
+    class: "level-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 45
+    }
+  }, __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200,
+      columnNumber: 49
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200,
+      columnNumber: 69
+    }
+  }, changeNum(rocket.mass.kg), " kg"))), __jsx("div", {
+    class: "level-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202,
+      columnNumber: 45
+    }
+  }, __jsx("div", {
+    class: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203,
+      columnNumber: 49
+    }
+  }, __jsx("p", {
+    class: "subtitle ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204,
+      columnNumber: 53
+    }
+  }, changeNum(rocket.mass.lb), " lb")))))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 210,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    class: "notification has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211,
+      columnNumber: 37
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 212,
+      columnNumber: 41
+    }
+  }, "Diameter"), __jsx("article", {
+    class: "level",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 213,
+      columnNumber: 41
+    }
+  }, __jsx("figure", {
+    class: "level-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214,
+      columnNumber: 45
+    }
+  }, __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 215,
+      columnNumber: 49
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 215,
+      columnNumber: 69
+    }
+  }, changeNum(rocket.diameter.meters), " m"))), __jsx("div", {
+    class: "level-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 217,
+      columnNumber: 45
+    }
+  }, __jsx("div", {
+    class: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218,
+      columnNumber: 49
+    }
+  }, __jsx("p", {
+    class: "subtitle ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 219,
+      columnNumber: 53
+    }
+  }, changeNum(rocket.diameter.feet), " ft")))))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 225,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    class: "notification has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 226,
+      columnNumber: 37
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227,
+      columnNumber: 41
+    }
+  }, "Stages"), __jsx("article", {
+    class: "level",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 228,
+      columnNumber: 41
+    }
+  }, __jsx("figure", {
+    class: "level-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 229,
+      columnNumber: 45
+    }
+  }, __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 230,
+      columnNumber: 49
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 230,
+      columnNumber: 69
+    }
+  }, rocket.stages)))))))), "`"), __jsx("section", {
+    class: "section has-background-dark",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 241,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 242,
+      columnNumber: 25
+    }
+  }, __jsx("h1", {
+    class: "title is-size-2 has-text-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 243,
+      columnNumber: 29
+    }
+  }, "Payloads"), __jsx("div", {
+    class: "columns is-multiline",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 244,
+      columnNumber: 29
+    }
+  }, rocket.payload_weights.map(payload => __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 246,
+      columnNumber: 37
+    }
+  }, __jsx("div", {
+    class: "notification has-background-black has-text-grey-lighter",
+    style: {
+      height: '180px'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 247,
+      columnNumber: 41
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 248,
+      columnNumber: 45
+    }
+  }, payload.name), __jsx("article", {
+    class: "level",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 249,
+      columnNumber: 45
+    }
+  }, __jsx("figure", {
+    class: "level-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250,
+      columnNumber: 49
+    }
+  }, __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 53
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 73
+    }
+  }, changeNum(payload.kg), " kg"))), __jsx("div", {
+    class: "level-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 253,
+      columnNumber: 49
+    }
+  }, __jsx("div", {
+    class: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 254,
+      columnNumber: 53
+    }
+  }, __jsx("p", {
+    class: "subtitle ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 255,
+      columnNumber: 57
+    }
+  }, changeNum(payload.lb), " lb")))))))))), __jsx("section", {
+    class: "section has-text-black has-background-white-bis",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 267,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 268,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    class: "columns",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 269,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 270,
+      columnNumber: 33
+    }
+  }, __jsx("h1", {
+    class: "title is-size-2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 37
+    }
+  }, "First Stage"), __jsx("div", {
+    class: "notification",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 272,
+      columnNumber: 37
+    }
+  }, __jsx("div", {
+    class: "columns",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 273,
+      columnNumber: 41
+    }
+  }, rocket.id == "starship" ? __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 275,
       columnNumber: 51
     }
-  }, "Pictures")), __jsx("li", {
+  }, __jsx("h1", {
+    class: "title",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 29
+      lineNumber: 276,
+      columnNumber: 53
     }
-  }, __jsx("a", {
+  }, "Burn Time"), __jsx("p", {
+    class: "subtitle",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 277,
+      columnNumber: 53
+    }
+  }, " - ")) : __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 279,
+      columnNumber: 51
+    }
+  }, __jsx("h1", {
+    class: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280,
+      columnNumber: 53
+    }
+  }, "Burn Time"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 53
+    }
+  }, changeNum(rocket.first_stage.burn_time_sec), " sec")), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 284,
+      columnNumber: 45
+    }
+  }, __jsx("h1", {
+    class: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 285,
+      columnNumber: 49
+    }
+  }, "Engines"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 286,
+      columnNumber: 49
+    }
+  }, rocket.first_stage.engines))), __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 289,
+      columnNumber: 41
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 290,
+      columnNumber: 45
+    }
+  }, "Thrust In Vacuum"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 291,
+      columnNumber: 45
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 291,
+      columnNumber: 65
+    }
+  }, changeNum(rocket.first_stage.thrust_vacuum.kN), " kN"), "\xA0\xA0\xA0", __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 291,
+      columnNumber: 141
+    }
+  }, changeNum(rocket.first_stage.thrust_vacuum.lbf), " lbf"))), __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 293,
+      columnNumber: 41
+    }
+  }), __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 294,
+      columnNumber: 41
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 295,
+      columnNumber: 45
+    }
+  }, "Thrust At Sea Level"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 45
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 65
+    }
+  }, changeNum(rocket.first_stage.thrust_sea_level.kN), " kN"), "\xA0\xA0\xA0", __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 144
+    }
+  }, changeNum(rocket.first_stage.thrust_sea_level.lbf), " lbf"))))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 300,
       columnNumber: 33
     }
-  }, "Music")), __jsx("li", {
+  }, __jsx("h1", {
+    class: "title is-size-2",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 29
+      lineNumber: 301,
+      columnNumber: 37
     }
-  }, __jsx("a", {
+  }, "Second Stage"), __jsx("div", {
+    class: "notification",
+    style: {
+      height: '280px'
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 33
+      lineNumber: 302,
+      columnNumber: 37
     }
-  }, "Videos")), __jsx("li", {
+  }, __jsx("div", {
+    class: "columns",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 29
+      lineNumber: 303,
+      columnNumber: 41
     }
-  }, __jsx("a", {
+  }, rocket.id == "starship" ? __jsx("div", {
+    class: "column",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 33
+      lineNumber: 305,
+      columnNumber: 51
     }
-  }, "Documents"))))));
+  }, __jsx("h1", {
+    class: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 306,
+      columnNumber: 53
+    }
+  }, "Burn Time"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 307,
+      columnNumber: 53
+    }
+  }, " - ")) : __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 309,
+      columnNumber: 51
+    }
+  }, __jsx("h1", {
+    class: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310,
+      columnNumber: 53
+    }
+  }, "Burn Time"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 311,
+      columnNumber: 53
+    }
+  }, changeNum(rocket.second_stage.burn_time_sec), " sec")), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 314,
+      columnNumber: 45
+    }
+  }, __jsx("h1", {
+    class: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 315,
+      columnNumber: 49
+    }
+  }, "Engines"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 316,
+      columnNumber: 49
+    }
+  }, rocket.second_stage.engines))), __jsx("div", {
+    class: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 319,
+      columnNumber: 41
+    }
+  }, __jsx("h1", {
+    class: "title is-size-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 320,
+      columnNumber: 45
+    }
+  }, "Thrust"), __jsx("p", {
+    class: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 321,
+      columnNumber: 45
+    }
+  }, __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 321,
+      columnNumber: 65
+    }
+  }, changeNum(rocket.second_stage.thrust.kN), " Kn"), "\xA0\xA0\xA0", __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 321,
+      columnNumber: 135
+    }
+  }, changeNum(rocket.second_stage.thrust.lbf), " lbf"))))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Rocket);
@@ -2395,7 +3368,7 @@ const Rocket = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!************************************!*\
   !*** multi ./pages/rocket/[id].js ***!
   \************************************/
