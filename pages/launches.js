@@ -2,6 +2,7 @@ import Layout, { client } from "../components/Layout";
 import { useEffect, useState } from 'react'
 import gql from "graphql-tag";
 import Loader from "../components/Loader";
+import Head from "next/head";
 
 
 const launches = () => {
@@ -37,9 +38,9 @@ const launches = () => {
                 setIsLoading(false)
             });
     }, [])
-
     // console.log(launches)
 
+     //change date format
     const changeDate = (x) => {
         const event = new Date(x);
         let formatted_date = event.getDate() + "-" + (event.getMonth() + 1) + "-" + event.getFullYear()
@@ -56,6 +57,9 @@ const launches = () => {
                 </Layout>
                 :
                 <Layout>
+                    <Head>
+                        <title>Launches | SpaceX</title>
+                    </Head>
                     <section class="section">
                         <div class="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <table class="table table is-striped is-fullwidth" >

@@ -85,11 +85,20 @@ var Layout = function Layout(props) {
       lineNumber: 24,
       columnNumber: 17
     }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "/static/navbar.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 17
+    }
   })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 13
     }
   }), props.children);
@@ -213,7 +222,7 @@ var Navbar = function Navbar() {
   //       setRockets(result.data.rockets)
   //     });
   // }, [])
-  // document.addEventListener('DOMContentLoaded', () => {
+  // document.addEventListener(() => {
   //   // Get all "navbar-burger" elements
   //   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   //   // Check if there are any navbar burgers
@@ -235,14 +244,14 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 52,
       columnNumber: 5
     }
   }, __jsx("navabr", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 53,
       columnNumber: 7
     }
   }, __jsx("nav", {
@@ -255,7 +264,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -263,7 +272,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 55,
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -271,7 +280,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 56,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -282,7 +291,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 57,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -291,7 +300,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 58,
       columnNumber: 17
     }
   }))), __jsx("a", {
@@ -303,7 +312,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 62,
       columnNumber: 13
     }
   }, __jsx("span", {
@@ -311,7 +320,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 63,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -319,7 +328,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 64,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -327,7 +336,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 65,
       columnNumber: 15
     }
   }))), __jsx("div", {
@@ -336,7 +345,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 69,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -347,7 +356,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 70,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -355,7 +364,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 80,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -363,7 +372,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 81,
       columnNumber: 17
     }
   }, "Falcon 1")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -371,7 +380,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -379,7 +388,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 87,
       columnNumber: 17
     }
   }, "Falcon 9")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -387,7 +396,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 92,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -395,7 +404,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 93,
       columnNumber: 17
     }
   }, "Falcon Heavy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -403,7 +412,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 98,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -411,7 +420,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 99,
       columnNumber: 17
     }
   }, "Starship")))))));
@@ -17102,7 +17111,7 @@ var _this = undefined,
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n                        query GET_ROCKET {\n                            histories {\n                                title\n                                details\n                                event_date_utc\n                                flight {\n                                  rocket {\n                                    rocket {\n                                      id\n                                    }\n                                  }\n                                }\n                              }\n                              rocket(id: \"", "\") {\n                                id\n                                name\n                                description\n                                country\n                                diameter {\n                                  feet\n                                  meters\n                                }\n                                height {\n                                  feet\n                                  meters\n                                }\n                                mass {\n                                  kg\n                                  lb\n                                }\n                                payload_weights {\n                                  kg\n                                  lb\n                                  name\n                                }\n                                first_stage {\n                                  burn_time_sec\n                                  engines\n                                  fuel_amount_tons\n                                  thrust_vacuum {\n                                    kN\n                                    lbf\n                                  }\n                                  thrust_sea_level {\n                                    kN\n                                    lbf\n                                  }\n                                }\n                                second_stage {\n                                  burn_time_sec\n                                  engines\n                                  thrust {\n                                    kN\n                                    lbf\n                                  }\n                                }\n                                wikipedia\n                                stages\n                              }\n                        }\n                    "]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n                        query GET_ROCKET {\n                              rocket(id: \"", "\") {\n                                id\n                                name\n                                description\n                                country\n                                diameter {\n                                  feet\n                                  meters\n                                }\n                                height {\n                                  feet\n                                  meters\n                                }\n                                mass {\n                                  kg\n                                  lb\n                                }\n                                payload_weights {\n                                  kg\n                                  lb\n                                  name\n                                }\n                                first_stage {\n                                  burn_time_sec\n                                  engines\n                                  fuel_amount_tons\n                                  thrust_vacuum {\n                                    kN\n                                    lbf\n                                  }\n                                  thrust_sea_level {\n                                    kN\n                                    lbf\n                                  }\n                                }\n                                second_stage {\n                                  burn_time_sec\n                                  engines\n                                  thrust {\n                                    kN\n                                    lbf\n                                  }\n                                }\n                                wikipedia\n                                stages\n                            }\n                        }\n                    "]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -17120,29 +17129,18 @@ function _templateObject() {
 
 
 var Rocket = function Rocket() {
-  var img = {
-    // backgroundAttachment: 'fixed',
-    // backgroundRepeat: 'no-repeat',
-    // backgroundSize: 'cover',
-    width: '100vw'
-  };
-
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
       rocket = _useState[0],
       setRocket = _useState[1];
 
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-      histories = _useState2[0],
-      setHistories = _useState2[1];
-
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
-      isLoading = _useState3[0],
-      setIsLoading = _useState3[1]; // https://github.com/zeit/next.js/issues/8259
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      isLoading = _useState2[0],
+      setIsLoading = _useState2[1]; // https://github.com/zeit/next.js/issues/8259
 
 
-  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
-      id = _useState4[0],
-      setId = _useState4[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+      id = _useState3[0],
+      setId = _useState3[1];
 
   var _useRouter = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])(),
       query = _useRouter.query;
@@ -17157,20 +17155,9 @@ var Rocket = function Rocket() {
         // console.log(result)
         setRocket(result.data.rocket);
         setIsLoading(false);
-        setHistories(result.data.histories);
       });
     }
-  }, [query, id]); // Filter out histories don't have flight
-
-  var filterHistory = histories.filter(function (history) {
-    return history.flight;
-  }); // console.log(filterHistory)
-  // Filter out id not same with this page
-
-  var rocketHistory = filterHistory.filter(function (history) {
-    return history.flight.rocket.rocket.id == "".concat(id);
-  }); // console.log(rocketHistory)
-  //change number to [123,456]
+  }, [query, id]); //change number to [123,456]
 
   var changeNum = function changeNum(x) {
     return x.toLocaleString(x);
@@ -17180,7 +17167,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 91,
       columnNumber: 9
     }
   }, isLoading ? //isLoading (true)--------------------------------------------------------------------------------------------
@@ -17188,7 +17175,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 94,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -17199,14 +17186,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 95,
       columnNumber: 21
     }
   }, __jsx(_components_Loader__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 96,
       columnNumber: 25
     }
   }))) : //isLoading (false)--------------------------------------------------------------------------------------------
@@ -17214,30 +17201,32 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 101,
       columnNumber: 17
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 102,
       columnNumber: 21
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 103,
       columnNumber: 25
     }
   }, rocket.name, " | SpaceX")), __jsx("img", {
     src: "/RocketPic/".concat(rocket.id, "_pic.jpg"),
-    style: img,
+    style: {
+      width: "100vw"
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 106,
       columnNumber: 21
     }
   }), __jsx("section", {
@@ -17245,7 +17234,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 109,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -17253,7 +17242,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 110,
       columnNumber: 25
     }
   }, __jsx("h1", {
@@ -17261,29 +17250,37 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 111,
       columnNumber: 29
     }
   }, rocket.name), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 112,
       columnNumber: 29
     }
   }, rocket.description), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 113,
       columnNumber: 29
     }
   }), rocket.id == "falcon9" || rocket.id == "falconheavy" ? __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 115,
       columnNumber: 35
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/histories/".concat(id),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 37
     }
   }, __jsx("button", {
     "class": "button is-dark",
@@ -17293,15 +17290,15 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
-      columnNumber: 37
+      lineNumber: 117,
+      columnNumber: 41
     }
-  }, "Histories"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  }, "Histories")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/launches",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 119,
       columnNumber: 37
     }
   }, __jsx("button", {
@@ -17312,7 +17309,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 120,
       columnNumber: 41
     }
   }, "Launch Manifest")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -17320,7 +17317,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 122,
       columnNumber: 37
     }
   }, __jsx("button", {
@@ -17331,14 +17328,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 123,
       columnNumber: 41
     }
   }, "Price"))) : rocket.id == "starship" ? __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 127,
       columnNumber: 37
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -17346,7 +17343,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 128,
       columnNumber: 41
     }
   }, __jsx("button", {
@@ -17357,15 +17354,23 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 129,
       columnNumber: 45
     }
   }, "Launch Manifest"))) : __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 133,
       columnNumber: 37
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/histories/".concat(id),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 41
     }
   }, __jsx("button", {
     "class": "button is-dark",
@@ -17375,15 +17380,15 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
-      columnNumber: 41
+      lineNumber: 135,
+      columnNumber: 45
     }
-  }, "Histories"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  }, "Histories")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/launches",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 137,
       columnNumber: 41
     }
   }, __jsx("button", {
@@ -17394,7 +17399,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 138,
       columnNumber: 45
     }
   }, "Launch Manifest"))))), __jsx("section", {
@@ -17402,7 +17407,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 147,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -17410,7 +17415,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 148,
       columnNumber: 25
     }
   }, __jsx("h1", {
@@ -17418,7 +17423,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 149,
       columnNumber: 29
     }
   }, "Technical Overview"), __jsx("div", {
@@ -17426,7 +17431,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 150,
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -17434,7 +17439,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 151,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -17442,7 +17447,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 152,
       columnNumber: 37
     }
   }, __jsx("h1", {
@@ -17450,7 +17455,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 153,
       columnNumber: 41
     }
   }, "Height"), __jsx("article", {
@@ -17458,7 +17463,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 154,
       columnNumber: 41
     }
   }, __jsx("figure", {
@@ -17466,7 +17471,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 155,
       columnNumber: 45
     }
   }, __jsx("p", {
@@ -17474,14 +17479,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 156,
       columnNumber: 49
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 156,
       columnNumber: 69
     }
   }, changeNum(rocket.height.meters), " m"))), __jsx("div", {
@@ -17489,7 +17494,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 158,
       columnNumber: 45
     }
   }, __jsx("div", {
@@ -17497,7 +17502,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
+      lineNumber: 159,
       columnNumber: 49
     }
   }, __jsx("p", {
@@ -17505,7 +17510,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 160,
       columnNumber: 53
     }
   }, changeNum(rocket.height.feet), " ft")))))), __jsx("div", {
@@ -17513,7 +17518,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 166,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -17521,7 +17526,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 167,
       columnNumber: 37
     }
   }, __jsx("h1", {
@@ -17529,7 +17534,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 168,
       columnNumber: 41
     }
   }, "Mass"), __jsx("article", {
@@ -17537,7 +17542,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 169,
       columnNumber: 41
     }
   }, __jsx("figure", {
@@ -17545,7 +17550,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 170,
       columnNumber: 45
     }
   }, __jsx("p", {
@@ -17553,14 +17558,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 171,
       columnNumber: 49
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 171,
       columnNumber: 69
     }
   }, changeNum(rocket.mass.kg), " kg"))), __jsx("div", {
@@ -17568,7 +17573,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 173,
       columnNumber: 45
     }
   }, __jsx("div", {
@@ -17576,7 +17581,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 174,
       columnNumber: 49
     }
   }, __jsx("p", {
@@ -17584,7 +17589,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
+      lineNumber: 175,
       columnNumber: 53
     }
   }, changeNum(rocket.mass.lb), " lb")))))), __jsx("div", {
@@ -17592,7 +17597,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 181,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -17600,7 +17605,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211,
+      lineNumber: 182,
       columnNumber: 37
     }
   }, __jsx("h1", {
@@ -17608,7 +17613,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 183,
       columnNumber: 41
     }
   }, "Diameter"), __jsx("article", {
@@ -17616,7 +17621,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 184,
       columnNumber: 41
     }
   }, __jsx("figure", {
@@ -17624,7 +17629,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 185,
       columnNumber: 45
     }
   }, __jsx("p", {
@@ -17632,14 +17637,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 186,
       columnNumber: 49
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 186,
       columnNumber: 69
     }
   }, changeNum(rocket.diameter.meters), " m"))), __jsx("div", {
@@ -17647,7 +17652,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 188,
       columnNumber: 45
     }
   }, __jsx("div", {
@@ -17655,7 +17660,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 189,
       columnNumber: 49
     }
   }, __jsx("p", {
@@ -17663,7 +17668,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 190,
       columnNumber: 53
     }
   }, changeNum(rocket.diameter.feet), " ft")))))), __jsx("div", {
@@ -17671,7 +17676,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 196,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -17679,7 +17684,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 197,
       columnNumber: 37
     }
   }, __jsx("h1", {
@@ -17687,7 +17692,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 198,
       columnNumber: 41
     }
   }, "Stages"), __jsx("article", {
@@ -17695,7 +17700,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228,
+      lineNumber: 199,
       columnNumber: 41
     }
   }, __jsx("figure", {
@@ -17703,7 +17708,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 200,
       columnNumber: 45
     }
   }, __jsx("p", {
@@ -17711,14 +17716,14 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 201,
       columnNumber: 49
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 201,
       columnNumber: 69
     }
   }, rocket.stages)))))))), "`"), __jsx("section", {
@@ -17726,7 +17731,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 212,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -17734,7 +17739,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 213,
       columnNumber: 25
     }
   }, __jsx("h1", {
@@ -17742,7 +17747,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243,
+      lineNumber: 214,
       columnNumber: 29
     }
   }, "Payloads"), __jsx("div", {
@@ -17750,7 +17755,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 215,
       columnNumber: 29
     }
   }, rocket.payload_weights.map(function (payload) {
@@ -17759,7 +17764,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 246,
+        lineNumber: 217,
         columnNumber: 37
       }
     }, __jsx("div", {
@@ -17770,7 +17775,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 247,
+        lineNumber: 218,
         columnNumber: 41
       }
     }, __jsx("h1", {
@@ -17778,7 +17783,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 248,
+        lineNumber: 219,
         columnNumber: 45
       }
     }, payload.name), __jsx("article", {
@@ -17786,7 +17791,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 249,
+        lineNumber: 220,
         columnNumber: 45
       }
     }, __jsx("figure", {
@@ -17794,7 +17799,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 250,
+        lineNumber: 221,
         columnNumber: 49
       }
     }, __jsx("p", {
@@ -17802,14 +17807,14 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 251,
+        lineNumber: 222,
         columnNumber: 53
       }
     }, __jsx("b", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 251,
+        lineNumber: 222,
         columnNumber: 73
       }
     }, changeNum(payload.kg), " kg"))), __jsx("div", {
@@ -17817,7 +17822,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 253,
+        lineNumber: 224,
         columnNumber: 49
       }
     }, __jsx("div", {
@@ -17825,7 +17830,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 254,
+        lineNumber: 225,
         columnNumber: 53
       }
     }, __jsx("p", {
@@ -17833,7 +17838,7 @@ var Rocket = function Rocket() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 255,
+        lineNumber: 226,
         columnNumber: 57
       }
     }, changeNum(payload.lb), " lb"))))));
@@ -17842,7 +17847,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 238,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -17850,7 +17855,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268,
+      lineNumber: 239,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -17858,7 +17863,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269,
+      lineNumber: 240,
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -17866,7 +17871,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270,
+      lineNumber: 241,
       columnNumber: 33
     }
   }, __jsx("h1", {
@@ -17874,7 +17879,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 242,
       columnNumber: 37
     }
   }, "First Stage"), __jsx("div", {
@@ -17882,7 +17887,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 243,
       columnNumber: 37
     }
   }, __jsx("div", {
@@ -17890,7 +17895,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 244,
       columnNumber: 41
     }
   }, rocket.id == "starship" ? __jsx("div", {
@@ -17898,7 +17903,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275,
+      lineNumber: 246,
       columnNumber: 51
     }
   }, __jsx("h1", {
@@ -17906,7 +17911,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 276,
+      lineNumber: 247,
       columnNumber: 53
     }
   }, "Burn Time"), __jsx("p", {
@@ -17914,7 +17919,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 248,
       columnNumber: 53
     }
   }, " - ")) : __jsx("div", {
@@ -17922,7 +17927,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279,
+      lineNumber: 250,
       columnNumber: 51
     }
   }, __jsx("h1", {
@@ -17930,7 +17935,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 251,
       columnNumber: 53
     }
   }, "Burn Time"), __jsx("p", {
@@ -17938,7 +17943,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281,
+      lineNumber: 252,
       columnNumber: 53
     }
   }, changeNum(rocket.first_stage.burn_time_sec), " sec")), __jsx("div", {
@@ -17946,7 +17951,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 284,
+      lineNumber: 255,
       columnNumber: 45
     }
   }, __jsx("h1", {
@@ -17954,7 +17959,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 285,
+      lineNumber: 256,
       columnNumber: 49
     }
   }, "Engines"), __jsx("p", {
@@ -17962,7 +17967,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286,
+      lineNumber: 257,
       columnNumber: 49
     }
   }, rocket.first_stage.engines))), __jsx("div", {
@@ -17970,7 +17975,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 260,
       columnNumber: 41
     }
   }, __jsx("h1", {
@@ -17978,7 +17983,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 261,
       columnNumber: 45
     }
   }, "Thrust In Vacuum"), __jsx("p", {
@@ -17986,28 +17991,28 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 291,
+      lineNumber: 262,
       columnNumber: 45
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 291,
+      lineNumber: 262,
       columnNumber: 65
     }
   }, changeNum(rocket.first_stage.thrust_vacuum.kN), " kN"), "\xA0\xA0\xA0", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 291,
+      lineNumber: 262,
       columnNumber: 141
     }
   }, changeNum(rocket.first_stage.thrust_vacuum.lbf), " lbf"))), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293,
+      lineNumber: 264,
       columnNumber: 41
     }
   }), __jsx("div", {
@@ -18015,7 +18020,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 294,
+      lineNumber: 265,
       columnNumber: 41
     }
   }, __jsx("h1", {
@@ -18023,7 +18028,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 295,
+      lineNumber: 266,
       columnNumber: 45
     }
   }, "Thrust At Sea Level"), __jsx("p", {
@@ -18031,21 +18036,21 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296,
+      lineNumber: 267,
       columnNumber: 45
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296,
+      lineNumber: 267,
       columnNumber: 65
     }
   }, changeNum(rocket.first_stage.thrust_sea_level.kN), " kN"), "\xA0\xA0\xA0", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296,
+      lineNumber: 267,
       columnNumber: 144
     }
   }, changeNum(rocket.first_stage.thrust_sea_level.lbf), " lbf"))))), __jsx("div", {
@@ -18053,7 +18058,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 300,
+      lineNumber: 271,
       columnNumber: 33
     }
   }, __jsx("h1", {
@@ -18061,7 +18066,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 301,
+      lineNumber: 272,
       columnNumber: 37
     }
   }, "Second Stage"), __jsx("div", {
@@ -18072,7 +18077,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 302,
+      lineNumber: 273,
       columnNumber: 37
     }
   }, __jsx("div", {
@@ -18080,7 +18085,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 303,
+      lineNumber: 274,
       columnNumber: 41
     }
   }, rocket.id == "starship" ? __jsx("div", {
@@ -18088,7 +18093,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 305,
+      lineNumber: 276,
       columnNumber: 51
     }
   }, __jsx("h1", {
@@ -18096,7 +18101,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306,
+      lineNumber: 277,
       columnNumber: 53
     }
   }, "Burn Time"), __jsx("p", {
@@ -18104,7 +18109,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 307,
+      lineNumber: 278,
       columnNumber: 53
     }
   }, " - ")) : __jsx("div", {
@@ -18112,7 +18117,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
+      lineNumber: 280,
       columnNumber: 51
     }
   }, __jsx("h1", {
@@ -18120,7 +18125,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310,
+      lineNumber: 281,
       columnNumber: 53
     }
   }, "Burn Time"), __jsx("p", {
@@ -18128,7 +18133,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 311,
+      lineNumber: 282,
       columnNumber: 53
     }
   }, changeNum(rocket.second_stage.burn_time_sec), " sec")), __jsx("div", {
@@ -18136,7 +18141,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314,
+      lineNumber: 285,
       columnNumber: 45
     }
   }, __jsx("h1", {
@@ -18144,7 +18149,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 315,
+      lineNumber: 286,
       columnNumber: 49
     }
   }, "Engines"), __jsx("p", {
@@ -18152,7 +18157,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316,
+      lineNumber: 287,
       columnNumber: 49
     }
   }, rocket.second_stage.engines))), __jsx("div", {
@@ -18160,7 +18165,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 319,
+      lineNumber: 290,
       columnNumber: 41
     }
   }, __jsx("h1", {
@@ -18168,7 +18173,7 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 320,
+      lineNumber: 291,
       columnNumber: 45
     }
   }, "Thrust"), __jsx("p", {
@@ -18176,21 +18181,21 @@ var Rocket = function Rocket() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321,
+      lineNumber: 292,
       columnNumber: 45
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321,
+      lineNumber: 292,
       columnNumber: 65
     }
   }, changeNum(rocket.second_stage.thrust.kN), " Kn"), "\xA0\xA0\xA0", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321,
+      lineNumber: 292,
       columnNumber: 135
     }
   }, changeNum(rocket.second_stage.thrust.lbf), " lbf"))))))))));

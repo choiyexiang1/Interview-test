@@ -9,15 +9,7 @@ import Loader from '../../components/Loader';
 
 const Rocket = () => {
 
-    const img = {
-        // backgroundAttachment: 'fixed',
-        // backgroundRepeat: 'no-repeat',
-        // backgroundSize: 'cover',
-        width: '100vw',
-    }
-
     const [rocket, setRocket] = useState({})
-    const [histories, setHistories] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 
     // https://github.com/zeit/next.js/issues/8259
@@ -32,18 +24,6 @@ const Rocket = () => {
                 .query({
                     query: gql`
                         query GET_ROCKET {
-                            histories {
-                                title
-                                details
-                                event_date_utc
-                                flight {
-                                  rocket {
-                                    rocket {
-                                      id
-                                    }
-                                  }
-                                }
-                              }
                               rocket(id: "${id}") {
                                 id
                                 name
@@ -89,7 +69,7 @@ const Rocket = () => {
                                 }
                                 wikipedia
                                 stages
-                              }
+                            }
                         }
                     `
                 })
@@ -97,22 +77,9 @@ const Rocket = () => {
                     // console.log(result)
                     setRocket(result.data.rocket)
                     setIsLoading(false)
-                    setHistories(result.data.histories)
                 });
         }
     }, [query, id])
-
-    // Filter out histories don't have flight
-    const filterHistory = histories.filter(history => {
-        return (history.flight)
-    });
-    // console.log(filterHistory)
-
-    // Filter out id not same with this page
-    const rocketHistory = filterHistory.filter(history => {
-        return (history.flight.rocket.rocket.id == `${id}`)
-    });
-    // console.log(rocketHistory)
 
     //change number to [123,456]
     const changeNum = (x) => {
@@ -136,7 +103,7 @@ const Rocket = () => {
                         <title>{rocket.name} | SpaceX</title>
                     </Head>
 
-                    <img src={`/RocketPic/${rocket.id}_pic.jpg`} style={img} />
+                    <img src={`/RocketPic/${rocket.id}_pic.jpg`} style={{width:"100vw"}} />
 
                     {/* description */}
                     <section class="section has-text-black has-background-white-bis">
@@ -146,7 +113,9 @@ const Rocket = () => {
                             <br />
                             {rocket.id == "falcon9" || rocket.id == "falconheavy"
                                 ? <div>
-                                    <button class="button is-dark" style={{ margin: "5px 5px" }}>Histories</button>
+                                    <Link href={`/histories/${id}`}>
+                                        <button class="button is-dark" style={{ margin: "5px 5px" }}>Histories</button>
+                                    </Link>
                                     <Link href="/launches">
                                         <button class="button is-dark" style={{ margin: "5px 5px" }}>Launch Manifest</button>
                                     </Link>
@@ -162,7 +131,9 @@ const Rocket = () => {
                                     </div>
                                     :
                                     <div>
-                                        <button class="button is-dark" style={{ margin: "5px 5px" }}>Histories</button>
+                                        <Link href={`/histories/${id}`}>
+                                            <button class="button is-dark" style={{ margin: "5px 5px" }}>Histories</button>
+                                        </Link>
                                         <Link href="/launches">
                                             <button class="button is-dark" style={{ margin: "5px 5px" }}>Launch Manifest</button>
                                         </Link>

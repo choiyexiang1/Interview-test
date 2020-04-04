@@ -85,11 +85,20 @@ var Layout = function Layout(props) {
       lineNumber: 24,
       columnNumber: 17
     }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "/static/navbar.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 17
+    }
   })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 13
     }
   }), props.children);
@@ -144,7 +153,7 @@ var Navbar = function Navbar() {
   //       setRockets(result.data.rockets)
   //     });
   // }, [])
-  // document.addEventListener('DOMContentLoaded', () => {
+  // document.addEventListener(() => {
   //   // Get all "navbar-burger" elements
   //   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   //   // Check if there are any navbar burgers
@@ -166,14 +175,14 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 52,
       columnNumber: 5
     }
   }, __jsx("navabr", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 53,
       columnNumber: 7
     }
   }, __jsx("nav", {
@@ -186,7 +195,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -194,7 +203,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 55,
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -202,7 +211,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 56,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -213,7 +222,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 57,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -222,7 +231,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 58,
       columnNumber: 17
     }
   }))), __jsx("a", {
@@ -234,7 +243,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 62,
       columnNumber: 13
     }
   }, __jsx("span", {
@@ -242,7 +251,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 63,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -250,7 +259,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 64,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -258,7 +267,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 65,
       columnNumber: 15
     }
   }))), __jsx("div", {
@@ -267,7 +276,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 69,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -278,7 +287,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 70,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -286,7 +295,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 80,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -294,7 +303,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 81,
       columnNumber: 17
     }
   }, "Falcon 1")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -302,7 +311,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -310,7 +319,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 87,
       columnNumber: 17
     }
   }, "Falcon 9")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -318,7 +327,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 92,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -326,7 +335,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 93,
       columnNumber: 17
     }
   }, "Falcon Heavy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -334,7 +343,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 98,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -342,7 +351,7 @@ var Navbar = function Navbar() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 99,
       columnNumber: 17
     }
   }, "Starship")))))));
@@ -16296,7 +16305,9 @@ if (hasSymbols()) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 var _this = undefined,
     _jsxFileName = "C:\\Users\\ethan\\Desktop\\SpaceX_Test\\pages\\price.js";
 
@@ -16304,15 +16315,30 @@ var _this = undefined,
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
 var price = function price() {
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 6,
       columnNumber: 5
     }
-  }, __jsx("section", {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("title", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, "Prices | SpaceX")), __jsx("section", {
     "class": "hero is-fullheight",
     style: {
       backgroundColor: '#181c1f'
@@ -16320,7 +16346,7 @@ var price = function price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 10,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -16333,7 +16359,7 @@ var price = function price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 11,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -16341,7 +16367,7 @@ var price = function price() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 12,
       columnNumber: 17
     }
   }))));
@@ -16351,7 +16377,7 @@ var price = function price() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprice&absolutePagePath=C%3A%5CUsers%5Cethan%5CDesktop%5CSpaceX_Test%5Cpages%5Cprice.js ***!
   \*************************************************************************************************************************************/
@@ -16374,5 +16400,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=price.js.map

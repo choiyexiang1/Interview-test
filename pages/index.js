@@ -2,11 +2,21 @@ import { useEffect, useState } from 'react'
 import gql from "graphql-tag";
 import { client } from '../components/Layout';
 import Link from 'next/link';
+import styled from 'styled-components';
 
 import Layout from '../components/Layout';
 import Loader from '../components/Loader';
 
 const index = () => {
+
+    const Background = styled.section`
+        background-image: url("/home_bgi.jpg");
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 92vh;
+  `;
 
     const [rockets, setRockets] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -26,7 +36,7 @@ const index = () => {
           `
             })
             .then(result => {
-                console.log(result)
+                // console.log(result)
                 setRockets(result.data.rockets)
                 setIsLoading(false)
             });
@@ -38,63 +48,52 @@ const index = () => {
             {isLoading ?
                 //isLoading (true)--------------------------------------------------------------------------------------------
                 <Layout>
-                    <div id="img">
-                        <div style={{ backgroundColor: 'black', opacity: 0.8, height: '92vh' }}>
+                    <Background>
+                        <div style={{ backgroundColor: 'black', opacity: 0.8, height: '100vh' }}>
                             <Loader />
                         </div>
-                    </div>
+                    </Background>
                 </Layout>
                 :
                 //isLoading (false)--------------------------------------------------------------------------------------------
                 <Layout>
-                    <div id="img">
-                        <div class="columns is-multiline" style={{ backgroundColor: 'black', opacity: 0.8, minHeight: '100vh', width: '100vw' }}>
-                            {rockets.map(rocket => (
-                                <div class="column" style={{ margin: '40px auto' }}>
-                                    <div class="card" style={{ width: '300px', color: '#f2f2f2' }}>
-                                        <div class="card-image">
-                                            <figure class="image">
-                                                <img src={`/HomePic/${rocket.id}.jpg`} alt={rocket.id} />
-                                            </figure>
-                                        </div>
-                                        <div class="card-content">
-                                            <div class="media">
-                                                <div class="media-content">
-                                                    <p class="title is-4" style={{ fontSize: '1.5em', textDecorationWidth: 'bold' }}>{rocket.name}</p>
+                    <Background>
+                        <section class="section" style={{ backgroundColor: 'black', opacity: 0.8, minHeight: '100vh', width: '100vw' }}>
+                            <div class="container">
+                                <div class="columns is-multiline">
+                                    {rockets.map(rocket => (
+                                        <div class="column">
+                                            <div class="card" style={{ width: '300px', minHeight: '670px'}}>
+                                                <div class="card-image">
+                                                    <figure class="image is-4by3">
+                                                        <img src={`/HomePic/${rocket.id}.jpg`} alt={rocket.id} />
+                                                    </figure>
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="title is-4">{rocket.name}</p>
                                                     <Link href={`/rocket/${rocket.id}`}>
-                                                        <a class="subtitle is-6">@{rocket.id}</a>
+                                                        <p class="subtitle"><a>@{rocket.id}</a></p>
                                                     </Link>
+
+                                                    <div class="content">
+                                                        <p><b>Description: </b></p>
+                                                        {rocket.description}
+                                                    </div>
+
+                                                    <div class="content">
+                                                        <p><b>Country: </b></p>
+                                                        {rocket.country}
+                                                    </div>
                                                 </div>
                                             </div>
-
-                                            <div class="content">
-                                                <p><b>Description: </b></p>
-                                                {rocket.description}
-                                            </div>
-                                            <br />
-                                            <div class="content">
-                                                <p><b>Country: </b></p>
-                                                {rocket.country}
-                                            </div>
                                         </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            ))
-                            }
-                        </div>
-                    </div>
-                </Layout>
+                            </div>
+                        </section>
+                    </Background>
+                </Layout >
             }
-
-            <style jsx>{`
-            #img {
-                background-image: url("/home_bgi.jpg");
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-                background-size: cover;
-                min-height: 92vh;
-            }
-            `}</style>
         </div >
     );
 };
