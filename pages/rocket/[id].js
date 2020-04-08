@@ -81,7 +81,7 @@ const Rocket = () => {
         }
     }, [query, id])
 
-    //change number to [123,456]
+    //change number from [123456] to [123,456]
     const changeNum = (x) => {
         return x.toLocaleString(x);
     }

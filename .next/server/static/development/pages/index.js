@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -312,36 +312,18 @@ const Navbar = () => {
   //       setRockets(result.data.rockets)
   //     });
   // }, [])
-  // document.addEventListener(() => {
-  //   // Get all "navbar-burger" elements
-  //   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  //   // Check if there are any navbar burgers
-  //   if ($navbarBurgers.length > 0) {
-  //     // Add a click event on each of them
-  //     $navbarBurgers.forEach( el => {
-  //       el.addEventListener('click', () => {
-  //         // Get the target from the "data-target" attribute
-  //         const target = el.dataset.target;
-  //         const $target = document.getElementById(target);
-  //         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-  //         el.classList.toggle('is-active');
-  //         $target.classList.toggle('is-active');
-  //       });
-  //     });
-  //   }
-  // });
   return __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 29,
       columnNumber: 5
     }
   }, __jsx("navabr", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx("nav", {
@@ -354,7 +336,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -362,7 +344,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 32,
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -370,7 +352,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 33,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -381,7 +363,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 34,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -390,7 +372,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 35,
       columnNumber: 17
     }
   }))), __jsx("a", {
@@ -402,7 +384,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 39,
       columnNumber: 13
     }
   }, __jsx("span", {
@@ -410,7 +392,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 40,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -418,7 +400,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 41,
       columnNumber: 15
     }
   }), __jsx("span", {
@@ -426,7 +408,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 42,
       columnNumber: 15
     }
   }))), __jsx("div", {
@@ -435,7 +417,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 46,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -446,7 +428,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 47,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -454,7 +436,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 57,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -462,7 +444,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 58,
       columnNumber: 17
     }
   }, "Falcon 1")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -470,7 +452,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 63,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -478,7 +460,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 64,
       columnNumber: 17
     }
   }, "Falcon 9")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -486,7 +468,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 69,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -494,7 +476,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 70,
       columnNumber: 17
     }
   }, "Falcon Heavy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -502,7 +484,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 75,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -510,7 +492,7 @@ const Navbar = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 76,
       columnNumber: 17
     }
   }, "Starship")))))));
@@ -2492,7 +2474,7 @@ const index = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -66,7 +66,6 @@ const launches = () => {
                                 <thead>
                                     <tr>
                                         <th>Mission</th>
-                                        <th></th>
                                         <th>Launch Date</th>
                                         <th>Mission Name</th>
                                         <th>Launch Site</th>
@@ -86,7 +85,6 @@ const launches = () => {
                                                     )
                                                 )
                                             }
-                                            <th>{launch.launch_success}</th>
                                             <td>{changeDate(launch.launch_date_local)}</td>
                                             <td>{launch.mission_name}</td>
                                             <td>{launch.launch_site.site_name}</td>

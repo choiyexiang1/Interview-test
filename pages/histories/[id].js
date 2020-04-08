@@ -51,7 +51,7 @@ const history = () => {
     }, [query, id])
     // console.log(id)
     // console.log(histories)
-    console.log(rocket)
+    // console.log(rocket)
 
     // Filter out histories don't have flight
     const filterHistory = histories.filter(history => {
